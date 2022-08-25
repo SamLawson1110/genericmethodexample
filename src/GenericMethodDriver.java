@@ -7,6 +7,9 @@ public class GenericMethodDriver {
         Integer[] integerArray = {1, 2, 3};
         String[] stringArray = {"This", "is", "fun"};
 
+        gmc.printArray(integerArray);
+        gmc.printArray(stringArray);
+
         ArrayList<Double> array1 = new ArrayList<>();
         array1.add(25.5);
         array1.add(34.9);
@@ -19,7 +22,11 @@ public class GenericMethodDriver {
         array2.add(30);
         gmc.printList(array2);
 
-        gmc.printArray(integerArray);
-        gmc.printArray(stringArray);
+        System.out.println(gmc.sumOfList(array1));
+        System.out.println((int) gmc.sumOfList(array1));
+
+        ArrayList<Integer> intArray = new ArrayList<>();
+        gmc.addNumbers(intArray);
+        gmc.printList(intArray);
     }
 }

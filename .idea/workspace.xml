@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3c6b233-41a3-438f-8440-4674ef41f68a" name="Changes" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c3c6b233-41a3-438f-8440-4674ef41f68a" name="Changes" comment="added array lists">
       <change beforePath="$PROJECT_DIR$/src/GenericMethodClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericMethodClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GenericMethodDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericMethodDriver.java" afterDir="false" />
     </list>
@@ -52,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661398474863</updated>
-      <workItem from="1661398476128" duration="1183000" />
+      <workItem from="1661398476128" duration="1606000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1661399001728</created>
@@ -61,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661399001728</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added array lists">
+      <created>1661399873871</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661399873871</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,6 +86,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="added array lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="added array lists" />
   </component>
 </project>

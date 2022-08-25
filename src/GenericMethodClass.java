@@ -12,4 +12,17 @@ public class GenericMethodClass {
         }
     }
 
+    public double sumOfList(ArrayList<? extends Number> arrayList){
+        double s = 0.0;
+        for(Number n : arrayList){
+            s += n.doubleValue();
+        }
+        return s;
+    }
+
+    public void addNumbers(ArrayList<? super Integer> arrayList){
+        for(int i = 1; i <= 10; i++){
+            arrayList.add(i);
+        }
+    }
 }
